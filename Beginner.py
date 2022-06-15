@@ -12,12 +12,12 @@
 
 #ตัวแปร
 #ชื่อตัวแปร = ค่าที่เก็บ
-x = 20 #int
-y = "20" #str
-z = True #boolean
-print("ยอดเงินคงเหลือ " + str(x) +" บาท") #แปลง int to str
-print(int(y) + 40) #แปลง str to int
-print(type(z)) #หาชนิดตัวแปร
+# x = 20 #int
+# y = "20" #str
+# z = True #boolean
+# print("ยอดเงินคงเหลือ " + str(x) +" บาท") #แปลง int to str
+# print(int(y) + 40) #แปลง str to int
+# print(type(z)) #หาชนิดตัวแปร
 
 # #การตั้งชื่อตัวแปร
 # '''
@@ -30,3 +30,28 @@ print(type(z)) #หาชนิดตัวแปร
 # name = input("กรุณาป้อนชื่อ : ")
 # age = input("กรุณาป้อนอายุ : ")
 # print("ชื่อของคุณคือ : " + str(name) + " อายุ : " + str(age))    
+
+# โปรแกรมคำนวณ BMI
+# w = น้ำหนัก
+# h = ส่วนสูง
+# input
+# w =  int(input("น้ำหนักของคุณ : "))
+# h = int(input("ส่วนสูงของคุณ : "))
+# # process
+# h = h/100
+# bmi = w/(h*h)
+# # output
+# print("ค่า BMI ของคุณคือ : "+ str(int(bmi)))
+
+# การใช้ if 
+score = int(input("คะแนนเท่าไหร่ : "))
+if score >= 80 :
+    print("เกรด A")
+elif score >= 70 :
+    print("เกรด B")
+elif score >= 60 :
+    print("เกรด C")
+elif score >= 50 :
+    print("เกรด D")
+elif score < 50 :
+    print("เกรด E")
