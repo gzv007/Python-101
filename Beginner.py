@@ -44,14 +44,19 @@
 # print("ค่า BMI ของคุณคือ : "+ str(int(bmi)))
 
 # การใช้ if 
+
+
 score = int(input("คะแนนเท่าไหร่ : "))
-if score > 80 or score == 80  :
-    print("เกรด A")
-elif score >= 70 :
-    print("เกรด B")
-elif score >= 60 :
-    print("เกรด C")
-elif score >= 50 :
-    print("เกรด D")
-elif score < 50 :
-    print("เกรด E")
+# if score > 80 or score == 80  :
+#     print("เกรด A")
+# elif score >= 70 :
+#     print("เกรด B")
+# elif score >= 60 :
+#     print("เกรด C")
+# elif score >= 50 :
+#     print("เกรด D")
+# elif score < 50 :
+#     print("เกรด E")
+
+# Ternary operator
+print("เกรด A") if score > 80 else print("จบ")
