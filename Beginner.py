@@ -45,7 +45,7 @@
 
 # การใช้ if 
 score = int(input("คะแนนเท่าไหร่ : "))
-if score >= 80 :
+if score > 80 or score == 80  :
     print("เกรด A")
 elif score >= 70 :
     print("เกรด B")
