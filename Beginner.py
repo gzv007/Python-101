@@ -59,4 +59,18 @@ score = int(input("คะแนนเท่าไหร่ : "))
 #     print("เกรด E")
 
 # Ternary operator
-print("เกรด A") if score > 80 else print("จบ")
+# print("เกรด A") if score > 80 else print("จบ")
+
+# คำสั่ง pass
+if score > 80 or score == 80  :
+    print("เกรด A")
+elif score == 70 :
+    pass
+# elif score >= 60 :
+#     print("เกรด C")
+# elif score >= 50 :
+#     print("เกรด D")
+# elif score < 50 :
+#     print("เกรด E")
+else :
+    print("จบการทำงาน")
